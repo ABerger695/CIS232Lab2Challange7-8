@@ -24,6 +24,7 @@ public class Customer extends Person {
 
 	public void setList(boolean list) {
 		this.list = list;
+		
 	}
 
 }

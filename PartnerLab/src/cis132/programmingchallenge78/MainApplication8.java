@@ -35,7 +35,11 @@ public class MainApplication8 {
 		double discount = customer.discountLevel();
 		
 		//Formatted to turn the decimal into a percent
-		System.out.printf("Discount: %.1f%%%n", 100 * discount);
+		System.out.printf("Customer Name: %s%n"
+				+ "Customer Address: %s%n"
+				+ "Customer Phone Number: %s%n"
+				+ "Customer Number: %s%n"
+				+ "Discount: %.1f%%%n", name, address, telephone, number, 100 * discount);
 	}
 
 }
