@@ -12,7 +12,7 @@ public class MainApplication8 {
 		boolean list = true;
 		
 		String name = "";
-		String address = "";
+		String address = "";  
 		String telephone = "";
 		String number = "";
 		double purchases = 0;
@@ -55,7 +55,7 @@ public class MainApplication8 {
 				+ "Customer Address: %s%n"
 				+ "Customer Phone Number: %s%n"
 				+ "Customer Number: %s%n"
-				+ "Discount: %.1f%%%n", name, address, telephone, number, 100 * discount);
+				+ "Discount: %.1f%%%n", customer.getName(), customer.getAddress(), customer.getTelephone(), customer.getNumber(), 100 * discount);
 	}
 
 }
