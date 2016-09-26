@@ -14,7 +14,7 @@ public class PartnerLab {
 		String number = "";
 		String listChoice ="";
 		
-		boolean list = true;
+		boolean list = false;
 		
 		do {
 			System.out.println("Please enter customer name: ");
