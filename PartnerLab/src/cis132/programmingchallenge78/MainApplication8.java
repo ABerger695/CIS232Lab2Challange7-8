@@ -42,7 +42,7 @@ public class MainApplication8 {
 		do {
 		System.out.println("Please enter the amount of purchases the customer has made (More than zero): ");
 		purchases = keyboard.nextDouble();
-		} while (purchases == 0);
+		} while (purchases <= 0);
 		
 		//Creating the preferred customer class
 		PreferredCustomer customer = new PreferredCustomer(name, address, telephone, number, list, purchases);
