@@ -48,7 +48,7 @@ public class PartnerLab {
 				System.out.println("Please enter a valid input.");
 				listChoice = "";
 			}
-			} while (number.equals(""));
+			} while (listChoice.equals(""));
 		
 		Customer c = new Customer(name, address, telephone, number, list);
 		
